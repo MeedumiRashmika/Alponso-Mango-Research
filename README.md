@@ -3,7 +3,7 @@ Empowering Alponso Mango Export With Global Marcket Insights
 
 
 Rashmika D M -IT22583482
-🍋 Smart Export Packaging Recommender System for Alphonso Mangoes  
+ Smart Export Packaging Recommender System for Alphonso Mangoes  
 ### Using AI/ML + Deep Learning + Feature Engineering + Flutter + Firebase
 
 This project predicts the best export packaging for Alphonso mangoes in Sri Lanka by using  
@@ -24,7 +24,7 @@ All data is stored in **Firebase Firestore**.
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### ✔ Model 1 – Shelf Life Prediction (Regression)
 Predicts shelf life of Alphonso mangoes using:
@@ -55,7 +55,7 @@ Predicts damage % for different box options based on:
 
 ---
 
-# 🧠 Machine Learning Overview
+#  Machine Learning Overview
 
 The project uses **deep neural networks (DNNs)** built with **TensorFlow/Keras**.
 

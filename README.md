@@ -83,9 +83,6 @@ The project uses **deep neural networks (DNNs)** built with **TensorFlow/Keras**
 | Patience | 10 |
 | LR Scheduler | ReduceLROnPlateau |
 
-### **Accuracy**
-- R²: ~0.85–0.92  
-- MAE: < 1.5 days  
 
 ---
 
@@ -115,17 +112,7 @@ The project uses **deep neural networks (DNNs)** built with **TensorFlow/Keras**
 | Early Stopping | Yes (patience=15) |
 | LR Scheduler | ReduceLROnPlateau |
 
-### **Evaluation Metrics**
-| Metric | Meaning |
-|--------|---------|
-| MSE | Error magnitude |
-| MAE | % error |
-| R² Score | Variance explained |
 
-### **Accuracy Achieved**
-- **MSE ≈ 2–4**  
-- **MAE ≈ 1.0–1.6**  
-- **R² ≈ 0.90–0.96** (excellent)
 
 ---
 

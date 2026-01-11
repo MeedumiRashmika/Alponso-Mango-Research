@@ -1,4 +1,4 @@
-Empowering Alphonso Mango Export with AI, Computer Vision & Market Intelligence
+## Empowering Alphonso Mango Export with AI, Computer Vision & Market Intelligence
 
 This repository contains a multi-component research system focused on improving Alphonso mango export quality, packaging, and market intelligence using:
 
@@ -12,7 +12,7 @@ Time-Series Forecasting
 
 Mobile & Cloud Technologies
 
-The project is divided into four major research components, each developed by a team member.
+## The project is divided into four major research components, each developed by a team member.
 
 Research Components Overview
 Component	Focus Area
@@ -23,7 +23,7 @@ Component 4	Smart Export Packaging Recommender
 Component 1
 Plant Disease Classification using Xception (TensorFlow)
 
-This project implements a deep learning–based plant disease detection system using the Xception architecture with transfer learning.
+## This project implements a deep learning–based plant disease detection system using the Xception architecture with transfer learning.
 
 Features include:
 
@@ -38,7 +38,7 @@ Classification metrics
 Visualization
 
 Inference
-
+---
 Project Structure
 project/
 │
@@ -56,7 +56,7 @@ project/
 ├── train.py                 # Main training script
 └── README.md                # Project documentation
 
-Model Architecture
+## Model Architecture
 
 Base model: Xception (pretrained on ImageNet, frozen layers)
 
@@ -75,7 +75,7 @@ Dense Softmax Classifier (number of classes)
 Requirements
 pip install tensorflow numpy pandas pillow scikit-learn matplotlib
 
-
+---
 TensorFlow 2.x required
 
 Dataset Format
@@ -98,7 +98,7 @@ Recall
 
 AUC
 
-Classification report
+## Classification report
 
 Training plots
 
@@ -106,7 +106,7 @@ Inference Example
 result = inference_func("path/to/image.jpg")
 print(result)
 
-Component 2
+## Component 2
 Mango Quality Grading System for Export
 
 AI-based ripeness detection, size measurement, and weight measurement following GAP compliance standards.
@@ -163,7 +163,7 @@ mango-quality-grading/
 ├── main_grading_pipeline.py
 └── README.md
 
-How It Works
+## How It Works
 
 Step 1 — Image Capture
 
@@ -203,7 +203,7 @@ Preprocessed images
 
 Trained ripeness classification model
 
-Component 3
+## Component 3
 Intelligent Price Forecasting and Trading System
 
 AI-powered local and export market classification with price forecasting.
@@ -261,8 +261,9 @@ Export Price R²: 0.9980
 
 3-Month Price R²: 0.9647
 
-Component 4
-Smart Export Packaging Recommender System for Alphonso Mangoes
+## Component 4
+
+## Smart Export Packaging Recommender System for Alphonso Mangoes
 
 Built using AI/ML, Deep Learning, Feature Engineering, Flutter, and Firebase.
 
@@ -322,7 +323,7 @@ Smart packaging decision-making
 
 All components are built using low-cost, scalable, and AI-driven solutions.
 
-Git Repository
+## Git Repository
 
 https://github.com/MeedumiRashmika/Alponso-Mango-Research
 

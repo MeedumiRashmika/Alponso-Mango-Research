@@ -86,5 +86,3 @@ Because the camera distance is fixed, scale distortion is minimized.
  Preprocessed images for training
  Trained deep learning model for mango ripeness classification
 
-Architecture Diagram
-

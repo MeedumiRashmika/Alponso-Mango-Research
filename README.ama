@@ -1,1 +1,87 @@
+Mango Quality Grading System for Export
 
+AI-Based Ripeness Detection • Size Measurement •weight Measurment (GAP Compliance)
+Welcome to the Mango Quality Grading System, a low-cost computer vision and deep learning–based research project designed to automatically grade Alphonso (TJC) mangoes for export quality.
+This system replaces subjective human inspection with an objective, repeatable, and consistent AI-driven approach using images captured from a simple setup.
+The system evaluates mango quality based on:
+
+✅ Ripeness stage
+✅ Physical size 
+✅ Weight
+
+The final output clearly decides whether a mango is export quality (GAP compliant) or rejected.
+
+🎯 Research Motivation
+
+Traditional mango grading for export is:
+Time-consuming
+Subjective (depends on inspector experience)
+Inconsistent with strict GAP export standards
+This research solves these issues by combining deep learning + computer vision + controlled image acquisition, making mango grading:
+
+✔ Automatic
+✔ Objective
+✔ Low-cost
+✔ Suitable for farmers and exporters in developing countries
+
+mango-quality-grading/
+│
+├── dataset/
+│   ├── ripe/
+│   ├── semi_ripe/
+│   └── unripe/              # Labeled mango image dataset
+│
+├── ripeness_model/
+│   ├── mango_ripeness_model.py      # Deep learning model training
+│
+├── size_measurement/
+│   └── size_detection.py    # Pixel-to-cm size calculation using reference object
+│
+├── device_setup/
+│   └── capture_box_design.md
+│
+├── main_grading_pipeline.py # Final quality decision logic
+│
+└── README.md                # This document
+
+⚙️ How It Works — At a Glance
+📷 Step 1 — Image Capture (Controlled Setup)
+
+All mango images are captured using a simple image capture box with:
+Smartphone camera (fixed height)
+White background
+Controlled lighting
+Fixed mango holder
+Ruler / reference object (coin or scale)
+✔ Focus is on software intelligence, not hardware complexity
+This ensures uniform images for accurate size and shape analysis.
+
+🧠 Step 2 — Ripeness Detection (AI-Based)
+
+A deep learning model is trained using labeled mango images.
+
+The model classifies mangoes into:
+
+Unripe
+Semi-ripe
+Ripe
+
+Why this matters:
+Export mangoes must be at the correct ripeness stage — not underripe or overripe.
+
+📏 Step 3 — Size Measurement (Reference Object Method)
+
+A coin or ruler with known dimensions is placed in the image
+OpenCV converts pixel measurements into real-world centimeters
+Mango height and width are calculated
+These measurements are compared with GAP export size standards.
+Because the camera distance is fixed, scale distortion is minimized.
+
+✅ Work Completed (Up to Ripeness Model Training)
+
+ Defined the mango export quality grading problem
+ Selected Alphonso (TJC) mango variety
+ Captured mango images under controlled lighting and distance
+ Created and labeled dataset (Unripe / Semi-ripe / Ripe)
+ Preprocessed images for training
+ Trained deep learning model for mango ripeness classification

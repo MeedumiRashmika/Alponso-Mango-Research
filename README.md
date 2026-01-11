@@ -112,6 +112,8 @@ The project uses **deep neural networks (DNNs)** built with **TensorFlow/Keras**
 | Early Stopping | Yes (patience=15) |
 | LR Scheduler | ReduceLROnPlateau |
 
+## Architecture Diagram
+
 
 
 ---

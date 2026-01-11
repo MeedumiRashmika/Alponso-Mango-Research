@@ -37,9 +37,10 @@ Classification metrics
 
 Visualization
 
-Inference
 
+---
 Project Structure
+```
 project/
 │
 ├── dataset/                 # Training images (organized by class folders)
@@ -55,7 +56,8 @@ project/
 │
 ├── train.py                 # Main training script
 └── README.md                # Project documentation
-
+```
+---
 ## Model Architecture
 
 Base model: Xception (pretrained on ImageNet, frozen layers)
@@ -79,11 +81,13 @@ pip install tensorflow numpy pandas pillow scikit-learn matplotlib
 TensorFlow 2.x required
 
 Dataset Format
+```
 dataset/
 │
 ├── Die Back/
 ├── Anthracnose/
 └── Healthy/
+```
 
 Training
 python model.ipynb
@@ -144,6 +148,7 @@ Low-cost deployment
 Suitability for developing countries
 
 Project Structure
+```
 mango-quality-grading/
 │
 ├── dataset/
@@ -162,6 +167,7 @@ mango-quality-grading/
 │
 ├── main_grading_pipeline.py
 └── README.md
+```
 
 ## How It Works
 
@@ -223,6 +229,7 @@ Price after 3 months
 Uses time-series feature engineering with CatBoost and XGBoost models.
 
 Project Structure
+```
 mango-intelligence/
 │
 ├── dataset/
@@ -236,6 +243,7 @@ mango-intelligence/
 │   └── artifacts/
 │
 └── README.md
+```
 
 Workflow
 

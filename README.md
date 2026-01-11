@@ -1,4 +1,4 @@
-#Alphonso Mango Research Project
+Alphonso Mango Research Project
 Empowering Alphonso Mango Export with AI, Computer Vision & Market Intelligence
 
 This repository contains a multi-component research system focused on improving Alphonso (TJC) mango export quality, packaging, and market intelligence using:

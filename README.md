@@ -289,7 +289,7 @@ Legal and eco-friendly packaging rules
 
 Box layout and quantity
 
-Model 1 — Shelf Life Predictor
+## Model 1 — Shelf Life Predictor
 
 Deep Neural Network (Regression)
 
@@ -299,7 +299,7 @@ Optimizer: Adam
 
 Loss: Mean Squared Error (MSE)
 
-Model 2 — Packaging Damage Predictor
+## Model 2 — Packaging Damage Predictor
 
 Dense layers: 512 → 512 → 256 → 128
 
@@ -311,7 +311,9 @@ L2 regularization
 
 Advanced feature engineering
 
-Team Contribution Checklist
+
+
+## Team Contribution Checklist
 Team Member	Component	Status
 Member 1	Plant Disease Classification	Completed
 Member 2	Mango Quality Grading	Ripeness Model Completed

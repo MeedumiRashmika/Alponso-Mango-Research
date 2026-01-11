@@ -38,7 +38,7 @@ Classification metrics
 Visualization
 
 Inference
----
+
 Project Structure
 project/
 │
@@ -75,7 +75,7 @@ Dense Softmax Classifier (number of classes)
 Requirements
 pip install tensorflow numpy pandas pillow scikit-learn matplotlib
 
----
+
 TensorFlow 2.x required
 
 Dataset Format

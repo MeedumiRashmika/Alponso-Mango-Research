@@ -85,3 +85,6 @@ Because the camera distance is fixed, scale distortion is minimized.
  Created and labeled dataset (Unripe / Semi-ripe / Ripe)
  Preprocessed images for training
  Trained deep learning model for mango ripeness classification
+
+Architecture Diagram
+

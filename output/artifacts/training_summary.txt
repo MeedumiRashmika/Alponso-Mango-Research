@@ -1,0 +1,35 @@
+Local Accuracy: 0.662500
+
+Local Classification Report:
+              precision    recall  f1-score   support
+
+     Colombo       0.74      0.72      0.73       800
+    Dambulla       0.74      0.74      0.74       800
+      Pettah       0.52      0.53      0.52       800
+
+    accuracy                           0.66      2400
+   macro avg       0.66      0.66      0.66      2400
+weighted avg       0.66      0.66      0.66      2400
+
+
+Export Accuracy: 0.634167
+
+Export Classification Report:
+              precision    recall  f1-score   support
+
+        Doha       0.73      0.76      0.75       623
+       Dubai       0.71      0.70      0.70       594
+      London       0.54      0.60      0.57       584
+       Paris       0.54      0.47      0.50       599
+
+    accuracy                           0.63      2400
+   macro avg       0.63      0.63      0.63      2400
+weighted avg       0.63      0.63      0.63      2400
+
+
+XGB Reg Summary:
+{'target_0': {'rmse': 3.355285689206157, 'mae': 2.543561069488525, 'r2': 0.996905558402411}, 'target_1': {'rmse': 0.021986383960749194, 'mae': 0.015838696230053902, 'r2': 0.9944478753949237}, 'target_2': {'rmse': 13.486434440791902, 'mae': 10.489394558461507, 'r2': 0.9620814529146919}}
+
+Cat Reg Summary:
+{'target_0': {'rmse': 1.984412312491834, 'mae': 1.4958844840631613, 'r2': 0.9989176016851002}, 'target_1': {'rmse': 0.013014207330710462, 'mae': 0.008179379915632905, 'r2': 0.9980546980113943}, 'target_2': {'rmse': 13.004523624878955, 'mae': 10.205985836452959, 'r2': 0.9647429238996625}}
+

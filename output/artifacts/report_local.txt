@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+     Colombo       0.74      0.72      0.73       800
+    Dambulla       0.74      0.74      0.74       800
+      Pettah       0.52      0.53      0.52       800
+
+    accuracy                           0.66      2400
+   macro avg       0.66      0.66      0.66      2400
+weighted avg       0.66      0.66      0.66      2400

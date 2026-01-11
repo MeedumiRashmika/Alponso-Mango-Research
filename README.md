@@ -118,6 +118,13 @@ The project uses **deep neural networks (DNNs)** built with **TensorFlow/Keras**
 
 <img width="2019" height="1187" alt="image" src="https://github.com/user-attachments/assets/ae3341c1-4749-416b-b0fe-c70806a360dd" />
 
+## Project Dependencies
+- Flutter
+- Firebase Firestore
+- Python
+- TensorFlow / Keras
+- NumPy
+- Pandas
 
 
 

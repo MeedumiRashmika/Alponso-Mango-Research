@@ -1,4 +1,4 @@
-## Empowering Alphonso Mango Export with AI, Computer Vision & Market Intelligence
+## Empowering Alponso Mango Export With Global Market Insights
 
 This repository contains a multi-component research system focused on improving Alphonso mango export quality, packaging, and market intelligence using:
 
@@ -19,11 +19,13 @@ Component	Focus Area
 Component 1	Plant Disease Classification (Deep Learning)
 Component 2	Mango Quality Grading for Export
 Component 3	Intelligent Price Forecasting and Trading System
-Component 4	Smart Export Packaging Recommender
-Component 1
-Plant Disease Classification using Xception (TensorFlow)
+Component 4	Smart Export Packaging Recommender (Deep Learning)
 
-## This project implements a deep learning–based plant disease detection system using the Xception architecture with transfer learning.
+## Component 1
+
+## Plant Disease Classification using Xception (TensorFlow)
+
+This project implements a deep learning–based plant disease detection system using the Xception architecture with transfer learning.
 
 Features include:
 

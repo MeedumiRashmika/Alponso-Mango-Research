@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub get 2>&1 | tail -3)",
+      "Bash(flutter pub get)",
+      "Bash(git add pubspec.yaml lib/screens/user/user_bid_detail_screen.dart lib/services/bidding_service.dart && git commit -m \"$\\(cat <<'EOF'\nAdd QR code for winning bids and fix status update transaction bug\n\nFeatures:\n- Add qr_flutter dependency for QR code rendering\n- Show QR code on UserBidDetailScreen when user wins auction\n- QR encodes auction details, owner info, and winning bid data\n- Winner detection handles both closeBid \\(highest bidder\\) and awardBid \\(explicit winner\\) paths\n\nBug fixes:\n- Fix BiddingService.closeBid/cancelBid/awardBid transaction failures\n- Changed transaction.update\\(\\) to transaction.set\\(\\) with merge to handle missing documents\n- Ensures status updates complete successfully even in edge cases\n\nCo-Authored-By: Claude Haiku 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(dart analyze lib/screens/user/price_analysis_screen.dart 2>&1 | head -20)",
+      "Bash(dart analyze lib/screens/user/price_analysis_screen.dart 2>&1)",
+      "Bash(dart analyze lib/screens/user/farmer_create_auction_screen.dart 2>&1)"
+    ]
+  }
+}

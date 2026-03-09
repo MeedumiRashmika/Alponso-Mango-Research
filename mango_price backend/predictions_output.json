@@ -1,0 +1,131 @@
+[
+  {
+    "sample_number": 1,
+    "input": {
+      "Date": "2025-11-15",
+      "Mango_Age_Days": 40,
+      "Days_To_Maturity": 40,
+      "Temp_C": 30.2,
+      "Humidity_%": 72,
+      "Region": "Colombo",
+      "weather": "Clear"
+    },
+    "predictions": {
+      "local_market": {
+        "market": "Colombo",
+        "confidence": 0.6020232926498641,
+        "all_probabilities": {
+          "Colombo": 0.6020232926498641,
+          "Dambulla": 0.039880352525571754,
+          "Pettah": 0.3580963548245642
+        }
+      },
+      "export_market": {
+        "market": "London",
+        "confidence": 0.6388381719589233,
+        "all_probabilities": {
+          "Doha": 0.0017139805713668466,
+          "Dubai": 0.008807155303657055,
+          "London": 0.6388381719589233,
+          "Paris": 0.35064074397087097
+        }
+      },
+      "price_predictions_catboost": {
+        "local_price_lkr": 285.261565421717,
+        "export_price_usd": 1.5198683985470094,
+        "harvesting_after_3months_price": 306.030645682208
+      },
+      "price_predictions_xgboost": {
+        "local_price_lkr": 287.9286193847656,
+        "export_price_usd": 1.5306857824325562,
+        "harvesting_after_3months_price": 310.10748291015625
+      }
+    }
+  },
+  {
+    "sample_number": 2,
+    "input": {
+      "Date": "2025-12-20",
+      "Mango_Age_Days": 80,
+      "Days_To_Maturity": 15,
+      "Temp_C": 28.5,
+      "Humidity_%": 65,
+      "Region": "Hambantota",
+      "weather": "Partly Cloudy"
+    },
+    "predictions": {
+      "local_market": {
+        "market": "Colombo",
+        "confidence": 0.6020232926498641,
+        "all_probabilities": {
+          "Colombo": 0.6020232926498641,
+          "Dambulla": 0.039880352525571754,
+          "Pettah": 0.3580963548245642
+        }
+      },
+      "export_market": {
+        "market": "London",
+        "confidence": 0.6388381719589233,
+        "all_probabilities": {
+          "Doha": 0.0017139805713668466,
+          "Dubai": 0.008807155303657055,
+          "London": 0.6388381719589233,
+          "Paris": 0.35064074397087097
+        }
+      },
+      "price_predictions_catboost": {
+        "local_price_lkr": 285.261565421717,
+        "export_price_usd": 1.5198683985470094,
+        "harvesting_after_3months_price": 306.030645682208
+      },
+      "price_predictions_xgboost": {
+        "local_price_lkr": 287.9286193847656,
+        "export_price_usd": 1.5306857824325562,
+        "harvesting_after_3months_price": 310.10748291015625
+      }
+    }
+  },
+  {
+    "sample_number": 3,
+    "input": {
+      "Date": "2025-10-05",
+      "Mango_Age_Days": 25,
+      "Days_To_Maturity": 60,
+      "Temp_C": 31.0,
+      "Humidity_%": 75,
+      "Region": "Colombo",
+      "weather": "Rain"
+    },
+    "predictions": {
+      "local_market": {
+        "market": "Colombo",
+        "confidence": 0.6020232926498641,
+        "all_probabilities": {
+          "Colombo": 0.6020232926498641,
+          "Dambulla": 0.039880352525571754,
+          "Pettah": 0.3580963548245642
+        }
+      },
+      "export_market": {
+        "market": "London",
+        "confidence": 0.6388381719589233,
+        "all_probabilities": {
+          "Doha": 0.0017139805713668466,
+          "Dubai": 0.008807155303657055,
+          "London": 0.6388381719589233,
+          "Paris": 0.35064074397087097
+        }
+      },
+      "price_predictions_catboost": {
+        "local_price_lkr": 285.261565421717,
+        "export_price_usd": 1.5198683985470094,
+        "harvesting_after_3months_price": 306.030645682208
+      },
+      "price_predictions_xgboost": {
+        "local_price_lkr": 287.9286193847656,
+        "export_price_usd": 1.5306857824325562,
+        "harvesting_after_3months_price": 310.10748291015625
+      }
+    }
+  }
+]

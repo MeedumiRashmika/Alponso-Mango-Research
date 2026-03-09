@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-01-07T18:50:43.134102",
+  "local_accuracy": 0.6625,
+  "export_accuracy": 0.6341666666666667,
+  "xgb_reg_summary": {
+    "target_0": {
+      "rmse": 3.355285689206157,
+      "mae": 2.543561069488525,
+      "r2": 0.996905558402411
+    },
+    "target_1": {
+      "rmse": 0.021986383960749194,
+      "mae": 0.015838696230053902,
+      "r2": 0.9944478753949237
+    },
+    "target_2": {
+      "rmse": 13.486434440791902,
+      "mae": 10.489394558461507,
+      "r2": 0.9620814529146919
+    }
+  },
+  "cat_reg_summary": {
+    "target_0": {
+      "rmse": 1.984412312491834,
+      "mae": 1.4958844840631613,
+      "r2": 0.9989176016851002
+    },
+    "target_1": {
+      "rmse": 0.013014207330710462,
+      "mae": 0.008179379915632905,
+      "r2": 0.9980546980113943
+    },
+    "target_2": {
+      "rmse": 13.004523624878955,
+      "mae": 10.205985836452959,
+      "r2": 0.9647429238996625
+    }
+  },
+  "models_saved": {
+    "local": "output\\models\\local_catboost_weighted.joblib",
+    "export": "output\\models\\export_xgboost.joblib",
+    "xgb_reg": "output\\models\\regressor_xgb_multi.joblib",
+    "cat_reg": "output\\models\\regressor_cat_multi.joblib",
+    "le_local": "output\\models\\label_encoder_local.joblib",
+    "le_export": "output\\models\\label_encoder_export.joblib"
+  }
+}

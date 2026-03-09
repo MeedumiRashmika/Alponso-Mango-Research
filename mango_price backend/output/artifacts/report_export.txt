@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+        Doha       0.73      0.76      0.75       623
+       Dubai       0.71      0.70      0.70       594
+      London       0.54      0.60      0.57       584
+       Paris       0.54      0.47      0.50       599
+
+    accuracy                           0.63      2400
+   macro avg       0.63      0.63      0.63      2400
+weighted avg       0.63      0.63      0.63      2400

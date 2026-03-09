@@ -1,0 +1,1 @@
+ E:\\new\ last\\mango-sight\\mango-sight\\.dart_tool\\flutter_build\\6fc33edf66a25f0f2705cbedff9050d2\\native_assets.json: 

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "245028387294",
+    "project_id": "spare-parts-6c6af",
+    "storage_bucket": "spare-parts-6c6af.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245028387294:android:ba6b665e5e235451d4054f",
+        "android_client_info": {
+          "package_name": "com.example.mangosight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMx-7Agd76pFwrhjBl2HqDLUEZlvQxKsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245028387294:android:9c4529902ffd2ea0d4054f",
+        "android_client_info": {
+          "package_name": "com.example.travel_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMx-7Agd76pFwrhjBl2HqDLUEZlvQxKsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245028387294:android:ca11f45d91c9cb98d4054f",
+        "android_client_info": {
+          "package_name": "com.example.travel_app_v2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMx-7Agd76pFwrhjBl2HqDLUEZlvQxKsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
